@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   get 'static_pages/help'
   get 'static_pages/about'
   get 'static_pages/contact'
+  get 'signup' => 'users#new'
   resources :microposts
   #/users         index
   #/users/1       show
