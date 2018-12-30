@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :microposts
   #/users         index
   #/users/1       show
   #/users/new     new
